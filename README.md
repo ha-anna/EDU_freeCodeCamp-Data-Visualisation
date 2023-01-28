@@ -1,2 +1,3 @@
-# EDU_freeCodeCamp-Data-Visualisation
-Projects I've completed as a part of the FCC's Data Visualization with D3.js course. 
+# Data Visualization with D3.js Course
+
+All project that I've completed and that are part of the FreeCodeCamp's Data Visualization with D3.js course can be found here.
