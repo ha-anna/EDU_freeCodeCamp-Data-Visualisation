@@ -17,6 +17,7 @@ All project that I've completed and that are part of the FreeCodeCamp's Data Vis
 ### Links
 
 1. [Bar chart](https://github.com/its-haanna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-bar-chart) <br>
+2. [Scatter Plot](https://github.com/its-haanna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-scatter-plot) <br>
 
 ## My process
 
