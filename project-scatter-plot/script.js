@@ -1,5 +1,4 @@
 import * as d3 from "https://cdn.skypack.dev/d3@7.8.2";
-import * as d3TimeFormat from "https://cdn.skypack.dev/d3-time-format@4.1.0";
 
 document.addEventListener("DOMContentLoaded", async () => {
   const getData = async () => {
@@ -149,14 +148,13 @@ document.addEventListener("DOMContentLoaded", async () => {
       .append("g")
       .attr("class", "legend-label")
       .attr("transform", function (d, i) {
-        return "translate(0," + (h / 2 - i * 30) + ")";
+        return "translate(0," + (h / 2 - i * 30 + 300) + ")";
       });
 
     legend
       .append("circle")
       .attr("r", 7)
       .attr("cx", w - 60)
-      .attr("cy", 295)
       .attr("width", 18)
       .attr("height", 18)
       .style("fill", scheme)
@@ -165,7 +163,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     legend
       .append("text")
       .attr("x", w - 70)
-      .attr("y", 300)
+      .attr("y", 4)
       .attr("dy", "2rem")
       .style("text-anchor", "end")
       .text((d) => {
@@ -180,15 +178,3 @@ document.addEventListener("DOMContentLoaded", async () => {
   getData();
 });
 
-//time place seconds name yeaar nationality doping
-
-// Name: COUNTRY
-// Year: 1999, Time: 54: 34
-// Explanation
-
-``;
-
-// Y: time in minutes
-// X: Year
-
-// dots of two colors: no doping vs riders with doping allegations
