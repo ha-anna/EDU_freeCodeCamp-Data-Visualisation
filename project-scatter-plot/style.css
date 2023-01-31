@@ -1,0 +1,27 @@
+html,
+body {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: monospace;
+  background-color: #beaed4;
+}
+
+.container {
+  background: #f2f2f2;
+  padding: 50px;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.tooltip {
+  position: absolute;
+  background: #fffff2;
+  padding: 15px;
+  border-radius: 2px;
+  border: 1px solid black;
+}
