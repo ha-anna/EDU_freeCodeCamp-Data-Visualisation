@@ -118,17 +118,31 @@ document.addEventListener("DOMContentLoaded", async () => {
       .on("mouseover", function (e) {
         const i = this.getAttribute("index");
         tooltip.transition().duration(200).style("opacity", 0.9);
-        tooltip.html(
-          data[i].Name +
-            ": " +
-            data[i].Nationality +
-            "<br> Year: " +
-            data[i].Year +
-            ", Time: " +
-            data[i].Time +
-            "<br></br>" +
-            data[i].Doping
-        );
+        tooltip.html(function () {
+          if (data[i].Doping) {
+            return (
+              data[i].Name +
+              ": " +
+              data[i].Nationality +
+              "<br> Year: " +
+              data[i].Year +
+              ", Time: " +
+              data[i].Time +
+              "<br></br>" +
+              data[i].Doping
+            );
+          } else {
+            return (
+              data[i].Name +
+              ": " +
+              data[i].Nationality +
+              "<br> Year: " +
+              data[i].Year +
+              ", Time: " +
+              data[i].Time
+            );
+          }
+        });
         tooltip
           .style("left", e.clientX - 50 + "px")
           .style("top", e.clientY + "px")
@@ -155,6 +169,13 @@ document.addEventListener("DOMContentLoaded", async () => {
       .append("circle")
       .attr("r", 7)
       .attr("cx", w - 60)
+      .style("-webkit-transform", function () {
+        if (navigator.appVersion.indexOf("Chrome/") != -1) {
+          return "translatey(35px)";
+        } else {
+          return "translatey(-4px)";
+        }
+      })
       .attr("width", 18)
       .attr("height", 18)
       .style("fill", scheme)
@@ -163,7 +184,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     legend
       .append("text")
       .attr("x", w - 70)
-      .attr("y", 4)
       .attr("dy", "2rem")
       .style("text-anchor", "end")
       .text((d) => {
@@ -177,4 +197,3 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   getData();
 });
-
