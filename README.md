@@ -1,5 +1,8 @@
 # Data Visualization with D3.js Course
 
+<img src="./dv_course_cert.png" alt="Course Certificate" width="700px"/>
+Verify this certification at https://freecodecamp.org/certification/haanna/data-visualization
+
 ## Table of contents
 
 - [Overview](#overview)
