@@ -19,8 +19,8 @@ All project that I've completed and that are part of the FreeCodeCamp's Data Vis
 1. [Bar chart](https://github.com/its-haanna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-bar-chart) <br>
 2. [Scatter Plot](https://github.com/its-haanna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-scatter-plot) <br>
 3. [Heat Map](https://github.com/its-haanna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-heat-map) <br>
-4. [Choropleth Map]() <br>
-5. [Treemap DIagram]() <br>
+4. [Choropleth Map]()(N/A) <br>
+5. [Treemap Diagram]()(N/A) <br>
 
 ## My process
 
