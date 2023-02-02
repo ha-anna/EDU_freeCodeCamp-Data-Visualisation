@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #232323;
+}
+
+.link {
+  fill: blue;
+}
+
+.map {
+  background: #f2f2f2;
+  border-radius: 3px;
+  padding: 50px;
+}
+
+.counties {
+  transform: translate(35px, 80px);
+}
+
+.tooltip {
+  position: absolute;
+  background: #fffff2;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid black;
+  font-size: 12px;
+  text-align: center;
+}
+
+.county:hover {
+  stroke: black;
+}
