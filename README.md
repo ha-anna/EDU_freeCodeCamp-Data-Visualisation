@@ -19,11 +19,11 @@ All project that I've completed and that are part of the FreeCodeCamp's Data Vis
 
 ### Links
 
-1. [Bar chart](https://github.com/its-haanna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-bar-chart) <br>
-2. [Scatter Plot](https://github.com/its-haanna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-scatter-plot) <br>
-3. [Heat Map](https://github.com/its-haanna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-heat-map) <br>
-4. [Choropleth Map](https://github.com/its-haanna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-choropleth-map) <br>
-5. [Treemap Diagram](https://github.com/its-haanna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-tree-map-diagram) <br>
+1. [Bar chart](https://github.com/ha-anna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-bar-chart) <br>
+2. [Scatter Plot](https://github.com/ha-anna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-scatter-plot) <br>
+3. [Heat Map](https://github.com/ha-anna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-heat-map) <br>
+4. [Choropleth Map](https://github.com/ha-anna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-choropleth-map) <br>
+5. [Treemap Diagram](https://github.com/ha-anna/EDU_freeCodeCamp-Data-Visualisation/tree/main/project-tree-map-diagram) <br>
 
 ## My process
 
